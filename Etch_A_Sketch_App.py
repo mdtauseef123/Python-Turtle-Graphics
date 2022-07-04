@@ -20,9 +20,13 @@ def move_right():
 
 
 def clear_screen():
+    #To clear the screen
     my.clear()
+    #When we are moving back to the origin position it shouldn't mark the way
     my.penup()
+    #To move back to the original position i.e. origin(0,0)
     my.home()
+    #As we reach to the origin position now we will pen up so that we can do the function again
     my.pendown()
 
 
